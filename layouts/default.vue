@@ -99,7 +99,7 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'Dashboard',
           to: '/'
         },
         {
@@ -111,8 +111,12 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Bemulator'
     }
+  },
+  mounted () {
+    alert('work')
   }
+
 }
 </script>
